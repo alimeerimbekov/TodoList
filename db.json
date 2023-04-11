@@ -1,0 +1,87 @@
+{
+  "users": [
+    {
+      "email": "ali123@mail.tu",
+      "password": "$2a$10$c0wzyfUslKZP3VfWaUKGQeF1Zi.kcCwCVzsdi5/e8pqTX3Xz4zlt2",
+      "login": "ali",
+      "categories": [],
+      "id": 1
+    },
+    {
+      "email": "ali_meerimbekov@mail.ru",
+      "password": "$2a$10$JF5I8T.gR4Ndidm/FpR/kePgLvKOqaf1p1aOF/HB7RM2W1F/uRNOu",
+      "login": "ali",
+      "categories": [],
+      "id": 2
+    },
+    {
+      "email": "tuigun0799@mail.ru",
+      "password": "$2a$10$geV/DepuzVwM6v0Ofe4.kuxJRBGJOxjL6rL/tZ8DbH8lPiYuLvFB.",
+      "login": "ali",
+      "categories": [],
+      "id": 3
+    },
+    {
+      "email": "askar@mail.ru",
+      "password": "$2a$10$wVZFoR6wgleAs8DtiwpmWuw3cM1fXxQkvGZHtxOcHsRi/ZqnK86YC",
+      "login": "Askar",
+      "categories": [
+        {
+          "categoryName": "msnca'",
+          "id": "97d1fb10-1874-47bf-840e-d17ba312e428",
+          "color": "red",
+          "tasks": []
+        }
+      ],
+      "id": 4
+    },
+    {
+      "email": "samat@mail.ru",
+      "password": "$2a$10$CpPwueKwBug6gqoBchBne.TclkSD2Ba7SMgGKTSKDnvIHh8bDtLlS",
+      "login": "samat",
+      "categories": [],
+      "id": 5
+    },
+    {
+      "email": "abi123@mail.ru",
+      "password": "$2a$10$SDgW/hp.LTh/z1S7POecfeuczXNutaomMhIE.kCGBR8x0RQUKjNQm",
+      "login": "abi",
+      "categories": [],
+      "id": 6
+    },
+    {
+      "email": "aka123@mail.ru",
+      "password": "$2a$10$ralX0sVNpm.t5EmZ0O2FT.PHucI5kk2IssPQX/4yBXcTEyklHF50C",
+      "login": "aka",
+      "categories": [],
+      "id": 7
+    },
+    {
+      "email": "bkvch@mail.ru",
+      "password": "$2a$10$iF09DkHeqKFzrjh9SifPyOdwJbDltZdDbvH1uCWldnlO9N6iH5Fji",
+      "login": "bkvch",
+      "categories": [],
+      "id": 8
+    },
+    {
+      "email": "aslan@mail.ru",
+      "password": "$2a$10$QKpXc8xgrGTWbaBiKGV0S.j5DvGDEEfQJ/e22GKO9A0JRe/DGyTf2",
+      "login": "Aslan",
+      "categories": [
+        {
+          "categoryName": "projects",
+          "id": "33f8d19f-e8fc-420f-ae8f-d60abdb7d4fe",
+          "color": "yellow",
+          "tasks": [
+            {
+              "taskTitle": "pfrjyxbnm ",
+              "id": "f76a0a84-85bc-4f7a-ab89-17e058467561",
+              "isComplete": false
+            }
+          ]
+        }
+      ],
+      "id": 9
+    }
+  ]
+}

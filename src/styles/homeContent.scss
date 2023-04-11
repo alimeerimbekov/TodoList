@@ -1,0 +1,153 @@
+.content {
+  width: calc(100% - 200px);
+  padding: 56px 69px 0 56px;
+
+  &__circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #e8e8e8;
+    position: relative;
+    cursor: pointer;
+
+    &:hover, &.active {
+      background: #4DD599;
+      border: 2px solid #4DD599;
+
+      &:before {
+        content: url("../assets/images/Vector.svg");
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+
+  &__top {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    margin-bottom: 52px;
+  }
+
+  &__title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #64C4ED;
+  }
+
+  &__edit {
+    cursor: pointer;
+
+    &:hover {
+      svg {
+        fill: black;
+      }
+    }
+  }
+
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    row-gap: 21px;
+  }
+
+  &__item {
+    max-width: 415px;
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+    position: relative;
+    &:last-child{
+      margin-bottom: 20px;
+    }
+
+    &-del {
+      display: none;
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+      cursor: pointer;
+
+      &:hover {
+        svg {
+          fill: black;
+        }
+      }
+    }
+
+    &:hover {
+      .content__item-del {
+        display: block;
+      }
+    }
+  }
+
+  &__bottom {
+    display: flex;
+    column-gap: 20px;
+    align-items: baseline;
+
+
+    &-icon {
+      cursor: pointer;
+    }
+
+    &-text {
+      font-family: 'Lato', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      letter-spacing: 0.15px;
+      color: #B4B4B4;
+      margin-top: 21px;
+      cursor: pointer;
+    }
+  }
+
+  &__add {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+
+    &-field {
+      max-width: 415px;
+      height: 38px;
+      background: #FFFFFF;
+      border: 1px solid #EFEFEF;
+      border-radius: 4px;
+      padding: 0 14px;
+    }
+
+    &-action {
+      display: flex;
+      column-gap: 9px;
+      margin-top: 16px;
+    }
+
+    &-btn {
+      padding: 7px 10px 11px;
+      color: #FFFFFF;
+      background: #4DD599;
+      border-radius: 4px;
+      border: none;
+      cursor: pointer;
+    }
+
+    &-close {
+      cursor: pointer;
+      padding: 7px 10px 11px;
+      background: #F4F6F8;
+      border-radius: 4px;
+      border: none;
+      color: #9C9C9C;
+
+    }
+  }
+}

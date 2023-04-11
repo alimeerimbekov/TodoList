@@ -1,0 +1,142 @@
+.aside {
+  width: 200px;
+  padding: 52px 20px 0;
+  background: lightblue;
+  height: 100vh;
+  position: relative;
+
+  &__leave {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  &__all {
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+    cursor: pointer;
+    padding: 12px 9px;
+    border-radius: 5px;
+    margin-bottom: 38px;
+
+    &.active {
+      background: aliceblue;
+    }
+
+    &:hover {
+      background: aliceblue;
+    }
+  }
+
+  &__menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__item {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    cursor: pointer;
+    padding: 12px 9px;
+    border-radius: 5px;
+    position: relative;
+
+    &.active {
+      background: aliceblue;
+    }
+
+    &-del {
+      display: none;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 13px;
+    }
+
+    &:hover {
+      background: aliceblue;
+
+      .aside__item-del {
+        display: inline;
+
+        svg {
+          fill: black;
+        }
+      }
+    }
+  }
+
+  &__color {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+
+  }
+
+  &__create {
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+    cursor: pointer;
+    padding: 12px 9px;
+    border-radius: 5px;
+    margin-top: 38px;
+    position: relative;
+
+    &:hover {
+      background: aliceblue;
+    }
+  }
+
+  &__popup {
+    position: absolute;
+    top: 100%;
+    width: 235px;
+    padding: 18px;
+    background: #FFFFFF;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+
+    &-close {
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: translate(50%, -50%);
+      cursor: pointer;
+    }
+  }
+
+  &__field {
+    border: 1px solid #EFEFEF;
+    border-radius: 4px;
+    height: 32px;
+    width: 100%;
+    padding: 0 11px;
+  }
+
+  &__colors {
+    margin: 13px 0;
+    display: flex;
+    column-gap: 5px;
+  }
+
+  &__col {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  &__add {
+    background: #4DD599;
+    border-radius: 4px;
+    padding: 9px 11px;
+    width: 100%;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+
+}
